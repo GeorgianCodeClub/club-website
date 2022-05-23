@@ -29,9 +29,6 @@ TODO
 TODO
 
 ### <a name="resources" title="Website links and other articles on how to get started using React"></a>
-```diff
-- Warning: Because this is a website, most of the React documentation focuses on that: building a website using React; Therefore, most of the resources below do not go into depth about React's functionality. 
-```
 General topics:
 <ol>
     <li>To view the official React 'Getting started' documentation, use the following link: https://reactjs.org/docs/getting-started.html</li>
