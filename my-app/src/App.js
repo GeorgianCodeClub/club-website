@@ -1,5 +1,5 @@
 import placeholder from './place-holder.png';
-import LandingPage from './pages/landing-page.js';
+import LandingPage from './components/LandingPage/index.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 //<img src={placeholder} className="App-logo" alt="logo" />
