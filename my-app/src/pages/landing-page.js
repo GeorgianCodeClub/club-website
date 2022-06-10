@@ -4,15 +4,15 @@ function LandingPage() {
   return (
     <div>
       <nav
-        class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+        className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
         id="mainNav"
       >
-        <div class="container px-4">
-          <a class="navbar-brand" href="#page-top">
+        <div className="container px-4">
+          <a className="navbar-brand" href="#page-top">
             Home
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarResponsive"
@@ -20,22 +20,22 @@ function LandingPage() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#about">
+          <div className="collapse navbar-collapse" id="navbarResponsive">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <a className="nav-link" href="#about">
                   About
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">
+              <li className="nav-item">
+                <a className="nav-link" href="#services">
                   Feedback
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">
+              <li className="nav-item">
+                <a className="nav-link" href="#contact">
                   Projects
                 </a>
               </li>
@@ -43,38 +43,38 @@ function LandingPage() {
           </div>
         </div>
       </nav>
-      <header class="bg-primary bg-gradient text-black">
-        <div class="container px-4 text-center">
-          <h1 class="fw-bolder">Welcome to Georgian Code Club</h1>
+      <header className="bg-primary bg-gradient text-black">
+        <div className="container px-4 text-center">
+          <h1 className="fw-bolder">Welcome to Georgian Code Club</h1>
         </div>
       </header>
       {/* About */}
-        <div class="container gap-3">
-            <div class="row p-5">
-                <div class="col-sm">
+        <div className="container gap-3">
+            <div className="row p-5">
+                <div className="col-sm">
                     {/* Empty block */}
                 </div>
-                <div class="col-sm">
+                <div className="col-sm">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.One of three columns
                 </div>
             </div>
         </div>
-                <div class="container px-4">
-            <div class="row p-5">
-                <div class="col-sm">
+                <div className="container px-4">
+            <div className="row p-5">
+                <div className="col-sm">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.One of three columns
                 </div>
-                <div class="col-sm">
+                <div className="col-sm">
                 {/* Empty block */}
                 </div>
             </div>
         </div>
-                <div class="container px-4">
-            <div class="row p-5">
-                <div class="col-sm">
+                <div className="container px-4">
+            <div className="row p-5">
+                <div className="col-sm">
                     {/* Empty block */}
                 </div>
-                <div class="col-sm">
+                <div className="col-sm">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.One of three columns
                 </div>
             </div>
