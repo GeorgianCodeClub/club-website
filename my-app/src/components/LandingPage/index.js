@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {ProjectsContainer} from './LandingPageElements';
+
 import PlaceHolder from '../../place-holder.png'
 
 var String1 = 'Lorem Ipsum is simply dummy text of the printing and typesetting ' +
@@ -16,8 +17,6 @@ function ProjectDisplay(props){
           </div>
         </div>
       </ProjectsContainer>
-    )
-}
 
 function LandingPage() {
   return (
@@ -55,11 +54,8 @@ function LandingPage() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contact">
-                  Projects
-                </a>
-              </li>
-            </ul>
-          </div>
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
       </nav>
       <header className="bg-primary bg-gradient text-black">
