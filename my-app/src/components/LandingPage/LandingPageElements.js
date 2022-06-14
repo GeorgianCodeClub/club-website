@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-export const PorjectsContainer = styled.aricle `
+export const ProjectsContainer = styled.article `
 
-`
+`;
 
