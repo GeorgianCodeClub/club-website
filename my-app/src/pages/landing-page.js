@@ -126,6 +126,7 @@ function LandingPage() {
           </div>
         </div>
       </article>
+      </div>
     </div>
   );
 }

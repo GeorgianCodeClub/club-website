@@ -17,14 +17,17 @@ function ProjectDisplay(props){
           </div>
         </div>
       </ProjectsContainer>
+    );
+};
 
 function LandingPage() {
   return (
     <div>
+
       <nav
-        className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
-        id="mainNav"
-      >
+        className="navbar navbar-expand-lg navbar-dasdrk bg-dark fixed-top"
+        id="mainNav">
+
         <div className="container px-4">
           <a className="navbar-brand" href="#page-top">
             Home
@@ -36,10 +39,9 @@ function LandingPage() {
             data-bs-target="#navbarResponsive"
             aria-controls="navbarResponsive"
             aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+            aria-label="Toggle navigation"></button>
+
             <span className="navbar-toggler-icon"></span>
-          </button>
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
@@ -54,10 +56,15 @@ function LandingPage() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contact">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+                  Projects
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
+
+
       <header className="bg-primary bg-gradient text-black">
         <div className="container px-4 text-center">
           <h1 className="fw-bolder">Welcome to Georgian Code Club</h1>
@@ -69,6 +76,6 @@ function LandingPage() {
       <ProjectDisplay text = {String1} image = {PlaceHolder} />
     </div>
   );
-}
+};
 
 export default LandingPage;
